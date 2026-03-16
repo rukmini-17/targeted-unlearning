@@ -1,0 +1,35 @@
+{
+  "author": "Amogh",
+  "notebook": "Notebook 1 \u2014 ACDC Circuit Discovery",
+  "model": "Qwen/Qwen3-0.6B",
+  "timestamp": "20260310_171841",
+  "n_samples": 50,
+  "threshold": 0.1,
+  "circuit_summary": {
+    "avg_attn_per_sample": 0.0,
+    "avg_mlp_per_sample": 20.44,
+    "top_attn_heads": [],
+    "top_mlp_layers": [
+      [
+        "0",
+        48
+      ],
+      [
+        "4",
+        48
+      ],
+      [
+        "1",
+        44
+      ],
+      [
+        "3",
+        44
+      ],
+      [
+        "7",
+        42
+      ]
+    ]
+  }
+}

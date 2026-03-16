@@ -1,0 +1,1525 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "rows": [
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 0,
+      "n_steps": 1,
+      "edit_success": 0.6449,
+      "baseline_prob": 0.0018,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 1,
+      "n_steps": 1,
+      "edit_success": 0.8367,
+      "baseline_prob": 0.0064,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 2,
+      "n_steps": 1,
+      "edit_success": 0.8912,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 3,
+      "n_steps": 1,
+      "edit_success": 0.703,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 4,
+      "n_steps": 1,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 5,
+      "n_steps": 1,
+      "edit_success": 0.4147,
+      "baseline_prob": 0.0159,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 6,
+      "n_steps": 1,
+      "edit_success": 0.9997,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 7,
+      "n_steps": 1,
+      "edit_success": 0.0004,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 8,
+      "n_steps": 1,
+      "edit_success": 0.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 9,
+      "n_steps": 1,
+      "edit_success": 0.0001,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 10,
+      "n_steps": 1,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 11,
+      "n_steps": 1,
+      "edit_success": 0.0056,
+      "baseline_prob": 0.0046,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 12,
+      "n_steps": 1,
+      "edit_success": 0.0002,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 13,
+      "n_steps": 1,
+      "edit_success": 0.0005,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 14,
+      "n_steps": 1,
+      "edit_success": 0.1315,
+      "baseline_prob": 0.0005,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 15,
+      "n_steps": 1,
+      "edit_success": 0.0006,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 16,
+      "n_steps": 1,
+      "edit_success": 0.0665,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 17,
+      "n_steps": 1,
+      "edit_success": 0.9437,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 18,
+      "n_steps": 1,
+      "edit_success": 0.0015,
+      "baseline_prob": 0.0005,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 19,
+      "n_steps": 1,
+      "edit_success": 0.0227,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 20,
+      "n_steps": 1,
+      "edit_success": 0.0,
+      "baseline_prob": 0.0006,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 21,
+      "n_steps": 1,
+      "edit_success": 0.5556,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 22,
+      "n_steps": 1,
+      "edit_success": 0.9964,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 23,
+      "n_steps": 1,
+      "edit_success": 0.0772,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 24,
+      "n_steps": 1,
+      "edit_success": 0.9937,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 25,
+      "n_steps": 1,
+      "edit_success": 0.9998,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 26,
+      "n_steps": 1,
+      "edit_success": 0.9761,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 27,
+      "n_steps": 1,
+      "edit_success": 0.0034,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 28,
+      "n_steps": 1,
+      "edit_success": 0.0043,
+      "baseline_prob": 0.1044,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 29,
+      "n_steps": 1,
+      "edit_success": 0.8119,
+      "baseline_prob": 0.0021,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 30,
+      "n_steps": 1,
+      "edit_success": 0.9996,
+      "baseline_prob": 0.0016,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 31,
+      "n_steps": 1,
+      "edit_success": 0.0,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 32,
+      "n_steps": 1,
+      "edit_success": 0.9322,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 33,
+      "n_steps": 1,
+      "edit_success": 0.2244,
+      "baseline_prob": 0.0009,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 34,
+      "n_steps": 1,
+      "edit_success": 0.094,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 35,
+      "n_steps": 1,
+      "edit_success": 0.8303,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 36,
+      "n_steps": 1,
+      "edit_success": 0.1533,
+      "baseline_prob": 0.0009,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 37,
+      "n_steps": 1,
+      "edit_success": 0.9941,
+      "baseline_prob": 0.0004,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 38,
+      "n_steps": 1,
+      "edit_success": 0.9792,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 39,
+      "n_steps": 1,
+      "edit_success": 0.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 40,
+      "n_steps": 1,
+      "edit_success": 0.3963,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 41,
+      "n_steps": 1,
+      "edit_success": 0.0007,
+      "baseline_prob": 0.0011,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 42,
+      "n_steps": 1,
+      "edit_success": 0.0028,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 43,
+      "n_steps": 1,
+      "edit_success": 0.6228,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 44,
+      "n_steps": 1,
+      "edit_success": 0.0,
+      "baseline_prob": 0.0004,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 45,
+      "n_steps": 1,
+      "edit_success": 0.0,
+      "baseline_prob": 0.0126,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 46,
+      "n_steps": 1,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 47,
+      "n_steps": 1,
+      "edit_success": 0.7977,
+      "baseline_prob": 0.0007,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 48,
+      "n_steps": 1,
+      "edit_success": 0.9984,
+      "baseline_prob": 0.0005,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_1step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 49,
+      "n_steps": 1,
+      "edit_success": 0.9857,
+      "baseline_prob": 0.0014,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 0,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0018,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 1,
+      "n_steps": 5,
+      "edit_success": 0.999,
+      "baseline_prob": 0.0064,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 2,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 3,
+      "n_steps": 5,
+      "edit_success": 0.9991,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 4,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 5,
+      "n_steps": 5,
+      "edit_success": 0.0,
+      "baseline_prob": 0.0159,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 6,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 7,
+      "n_steps": 5,
+      "edit_success": 0.9801,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 8,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 9,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 10,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 11,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0046,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 12,
+      "n_steps": 5,
+      "edit_success": 0.9922,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 13,
+      "n_steps": 5,
+      "edit_success": 0.9991,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 14,
+      "n_steps": 5,
+      "edit_success": 0.9998,
+      "baseline_prob": 0.0005,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 15,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 16,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 17,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 18,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0005,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 19,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 20,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0006,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 21,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 22,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 23,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 24,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 25,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 26,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 27,
+      "n_steps": 5,
+      "edit_success": 0.9789,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 28,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.1044,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 29,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0021,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 30,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0016,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 31,
+      "n_steps": 5,
+      "edit_success": 0.9988,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 32,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 33,
+      "n_steps": 5,
+      "edit_success": 0.9999,
+      "baseline_prob": 0.0009,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 34,
+      "n_steps": 5,
+      "edit_success": 0.9998,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 35,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 36,
+      "n_steps": 5,
+      "edit_success": 0.9993,
+      "baseline_prob": 0.0009,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 37,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0004,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 38,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 39,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 40,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 41,
+      "n_steps": 5,
+      "edit_success": 0.9989,
+      "baseline_prob": 0.0011,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 42,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 43,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 44,
+      "n_steps": 5,
+      "edit_success": 0.9999,
+      "baseline_prob": 0.0004,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 45,
+      "n_steps": 5,
+      "edit_success": 0.9999,
+      "baseline_prob": 0.0126,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 46,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 47,
+      "n_steps": 5,
+      "edit_success": 0.9941,
+      "baseline_prob": 0.0007,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 48,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0005,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_5step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 49,
+      "n_steps": 5,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0014,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 0,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0018,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 1,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0064,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 2,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 3,
+      "n_steps": 10,
+      "edit_success": 0.9999,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 4,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 5,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0159,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 6,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 7,
+      "n_steps": 10,
+      "edit_success": 0.9699,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 8,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 9,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 10,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 11,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0046,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 12,
+      "n_steps": 10,
+      "edit_success": 0.9728,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 13,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 14,
+      "n_steps": 10,
+      "edit_success": 0.9997,
+      "baseline_prob": 0.0005,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 15,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 16,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 17,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 18,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0005,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 19,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 20,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0006,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 21,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 22,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 23,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 24,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 25,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 26,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 27,
+      "n_steps": 10,
+      "edit_success": 0.9685,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 28,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.1044,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 29,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0021,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 30,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0016,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 31,
+      "n_steps": 10,
+      "edit_success": 0.992,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 32,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 33,
+      "n_steps": 10,
+      "edit_success": 0.9999,
+      "baseline_prob": 0.0009,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 34,
+      "n_steps": 10,
+      "edit_success": 0.9989,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 35,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 36,
+      "n_steps": 10,
+      "edit_success": 0.9997,
+      "baseline_prob": 0.0009,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 37,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0004,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 38,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 39,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0002,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 40,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 41,
+      "n_steps": 10,
+      "edit_success": 0.9994,
+      "baseline_prob": 0.0011,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 42,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 43,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0001,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 44,
+      "n_steps": 10,
+      "edit_success": 0.9999,
+      "baseline_prob": 0.0004,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 45,
+      "n_steps": 10,
+      "edit_success": 0.9997,
+      "baseline_prob": 0.0126,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 46,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 47,
+      "n_steps": 10,
+      "edit_success": 0.9935,
+      "baseline_prob": 0.0007,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 48,
+      "n_steps": 10,
+      "edit_success": 0.9999,
+      "baseline_prob": 0.0005,
+      "over_extinction": null,
+      "kl_final": 0.0
+    },
+    {
+      "method": "OurMethod_10step",
+      "model": "Qwen/Qwen3-0.6B",
+      "idx": 49,
+      "n_steps": 10,
+      "edit_success": 1.0,
+      "baseline_prob": 0.0014,
+      "over_extinction": null,
+      "kl_final": 0.0
+    }
+  ],
+  "summary": {
+    "OurMethod_1step": {
+      "avg_edit_success": 0.4619,
+      "avg_baseline": 0.0032,
+      "avg_delta": 0.4587,
+      "n_samples": 50
+    },
+    "OurMethod_5step": {
+      "avg_edit_success": 0.9788,
+      "avg_baseline": 0.0032,
+      "avg_delta": 0.9756,
+      "n_samples": 50
+    },
+    "OurMethod_10step": {
+      "avg_edit_success": 0.9979,
+      "avg_baseline": 0.0032,
+      "avg_delta": 0.9947,
+      "n_samples": 50
+    }
+  }
+}

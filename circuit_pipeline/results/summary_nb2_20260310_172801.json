@@ -1,0 +1,32 @@
+{
+  "author": "Amogh",
+  "notebook": "Notebook 2 \u2014 Ablation and Final Results",
+  "model": "Qwen/Qwen3-0.6B",
+  "timestamp": "20260310_172801",
+  "n_samples": 50,
+  "hyperparams": {
+    "lr": 0.005,
+    "step_counts": [
+      1,
+      5,
+      10
+    ]
+  },
+  "ablation_summary": {
+    "1_step": {
+      "avg_baseline": 0.0032,
+      "avg_edit_success": 0.4619,
+      "avg_delta": 0.4587
+    },
+    "5_step": {
+      "avg_baseline": 0.0032,
+      "avg_edit_success": 0.9788,
+      "avg_delta": 0.9756
+    },
+    "10_step": {
+      "avg_baseline": 0.0032,
+      "avg_edit_success": 0.9979,
+      "avg_delta": 0.9947
+    }
+  }
+}
