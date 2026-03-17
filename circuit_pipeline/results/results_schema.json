@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "description": "Standardized output schema for targeted unlearning evaluation harness (Person B, CS 590NN)",
+  "fields": {
+    "method": {
+      "type": "string",
+      "description": "Edit method name (e.g. 'ROME', 'OurMethod_1step', 'OurMethod_3step')"
+    },
+    "model": {
+      "type": "string",
+      "description": "HuggingFace model ID used for evaluation"
+    },
+    "idx": {
+      "type": "int",
+      "description": "CounterFact sample index (0-49)"
+    },
+    "n_steps": {
+      "type": "int",
+      "description": "Number of unlearning/edit steps applied"
+    },
+    "edit_success": {
+      "type": "float",
+      "range": [
+        0.0,
+        1.0
+      ],
+      "description": "1.0 if gen_after contains target_new (substring match); 0.0 otherwise"
+    },
+    "paraphrase_success": {
+      "type": "float",
+      "range": [
+        0.0,
+        1.0
+      ],
+      "description": "Fraction of paraphrase prompts where model outputs target_new after edit"
+    },
+    "over_extinction": {
+      "type": "float",
+      "range": [
+        0.0,
+        1.0
+      ],
+      "description": "OE_bleed: fraction of neighborhood prompts where edited model outputs target_new. Primary over-extinction signal. 0.0 = perfectly specific edit, 1.0 = catastrophic bleed."
+    },
+    "neighborhood_preservation": {
+      "type": "float",
+      "range": [
+        0.0,
+        1.0
+      ],
+      "description": "Fraction of neighborhood prompts where model still outputs true answer after edit"
+    },
+    "locality_drop": {
+      "type": "float",
+      "nullable": true,
+      "description": "MMLU accuracy drop (mmlu_before - mmlu_after). Positive = degradation, negative = improvement, null = not yet computed."
+    },
+    "kl_final": {
+      "type": "float",
+      "nullable": true,
+      "description": "Final KL divergence from circuit pipeline (Person A field, pass-through)"
+    }
+  },
+  "notes": [
+    "Schema is backward-compatible with week3_harness_output.json",
+    "over_extinction field was null in week3_harness_output.json \u2014 Person B fills this in Week 2",
+    "neighborhood_bleed and over_extinction are the same metric (OE_bleed) \u2014 aligned in Week 2"
+  ]
+}
