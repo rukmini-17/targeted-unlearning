@@ -1,0 +1,10 @@
+{
+  "method": "ROME",
+  "model": "Qwen/Qwen3-0.6B",
+  "n_samples": 50,
+  "over_extinction_bleed": 0.0,
+  "neighborhood_preservation": 0.2,
+  "edit_success_rate": 1.0,
+  "paraphrase_success": 0.0,
+  "locality_drop": 0.0
+}
