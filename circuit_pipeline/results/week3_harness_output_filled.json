@@ -1,5 +1,6 @@
 {
   "model": "Qwen/Qwen3-0.6B",
+  "schema_version": "1.1",
   "oe_source_note": "synthetic_approx \u2014 DRY_RUN=True. Set DRY_RUN=False for paper-quality results.",
   "rows": [
     {
@@ -11,12 +12,13 @@
       "baseline_prob": 0.0018,
       "over_extinction": 0.030402,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 11,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 11
+      "final_p_true": 9.388921814589266e-19
     },
     {
       "method": "OurMethod_1step",
@@ -27,12 +29,13 @@
       "baseline_prob": 0.0064,
       "over_extinction": 0.057374,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 16,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 16
+      "final_p_true": 4.2285080737456196e-14
     },
     {
       "method": "OurMethod_1step",
@@ -43,12 +46,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.103125,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 9.458914736096206e-19
     },
     {
       "method": "OurMethod_1step",
@@ -59,12 +63,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.06327,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 1.6606865718526718e-18
     },
     {
       "method": "OurMethod_1step",
@@ -75,12 +80,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.077143,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 18,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 18
+      "final_p_true": 9.50222387735789e-30
     },
     {
       "method": "OurMethod_1step",
@@ -91,12 +97,13 @@
       "baseline_prob": 0.0159,
       "over_extinction": 0.0391,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 7.540301358528195e-18
     },
     {
       "method": "OurMethod_1step",
@@ -107,12 +114,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.085689,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 20,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 20
+      "final_p_true": 1.26432100462014e-30
     },
     {
       "method": "OurMethod_1step",
@@ -123,12 +131,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 3.6e-05,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 0.00017635423864703625
     },
     {
       "method": "OurMethod_1step",
@@ -139,12 +148,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.0,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 18,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 18
+      "final_p_true": 3.7338153402455276e-11
     },
     {
       "method": "OurMethod_1step",
@@ -155,12 +165,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 7e-06,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 1.3150527888861063e-10
     },
     {
       "method": "OurMethod_1step",
@@ -171,12 +182,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.072857,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 1.600520679463816e-23
     },
     {
       "method": "OurMethod_1step",
@@ -187,12 +199,13 @@
       "baseline_prob": 0.0046,
       "over_extinction": 0.000456,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 1.8121466549558818e-09
     },
     {
       "method": "OurMethod_1step",
@@ -203,12 +216,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 2.4e-05,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 1.1817875567032843e-08
     },
     {
       "method": "OurMethod_1step",
@@ -219,12 +233,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 2.8e-05,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 13,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 13
+      "final_p_true": 6.052572072007267e-12
     },
     {
       "method": "OurMethod_1step",
@@ -235,12 +250,13 @@
       "baseline_prob": 0.0005,
       "over_extinction": 0.008454,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 15,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 15
+      "final_p_true": 6.001714416450205e-16
     },
     {
       "method": "OurMethod_1step",
@@ -251,12 +267,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 4.9e-05,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 2.445457324207376e-18
     },
     {
       "method": "OurMethod_1step",
@@ -267,12 +284,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.007695,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 2.6167315994693637e-14
     },
     {
       "method": "OurMethod_1step",
@@ -283,12 +301,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.076844,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 2.6327509484073362e-22
     },
     {
       "method": "OurMethod_1step",
@@ -299,12 +318,13 @@
       "baseline_prob": 0.0005,
       "over_extinction": 7.7e-05,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 12,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 12
+      "final_p_true": 2.521614966393684e-16
     },
     {
       "method": "OurMethod_1step",
@@ -315,12 +335,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.002043,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 9.141179153178103e-19
     },
     {
       "method": "OurMethod_1step",
@@ -331,12 +352,13 @@
       "baseline_prob": 0.0006,
       "over_extinction": 0.0,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 26,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 26
+      "final_p_true": 5.807677116997922e-10
     },
     {
       "method": "OurMethod_1step",
@@ -347,12 +369,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.038098,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 16,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 16
+      "final_p_true": 3.2538241273181914e-18
     },
     {
       "method": "OurMethod_1step",
@@ -363,12 +386,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.093946,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 1.7905267861596477e-19
     },
     {
       "method": "OurMethod_1step",
@@ -379,12 +403,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.008933,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 4.017775763237759e-14
     },
     {
       "method": "OurMethod_1step",
@@ -395,12 +420,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.102209,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 24,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 24
+      "final_p_true": 1.9589448382329572e-21
     },
     {
       "method": "OurMethod_1step",
@@ -411,12 +437,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.081412,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 4.427724304938177e-20
     },
     {
       "method": "OurMethod_1step",
@@ -427,12 +454,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.108765,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 26,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 26
+      "final_p_true": 5.0315480575259877e-20
     },
     {
       "method": "OurMethod_1step",
@@ -443,12 +471,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.000335,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 23,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 23
+      "final_p_true": 1.2954086798305066e-17
     },
     {
       "method": "OurMethod_1step",
@@ -459,12 +488,13 @@
       "baseline_prob": 0.1044,
       "over_extinction": 0.000424,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 23,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 23
+      "final_p_true": 1.0034324310044876e-13
     },
     {
       "method": "OurMethod_1step",
@@ -475,12 +505,13 @@
       "baseline_prob": 0.0021,
       "over_extinction": 0.090469,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 26,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 26
+      "final_p_true": 7.121174732411864e-17
     },
     {
       "method": "OurMethod_1step",
@@ -491,12 +522,13 @@
       "baseline_prob": 0.0016,
       "over_extinction": 0.119952,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 8.389179429985749e-28
     },
     {
       "method": "OurMethod_1step",
@@ -507,12 +539,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.0,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 3.2298728910973296e-05
     },
     {
       "method": "OurMethod_1step",
@@ -523,12 +556,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.111864,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 6.0540105030663e-21
     },
     {
       "method": "OurMethod_1step",
@@ -539,12 +573,13 @@
       "baseline_prob": 0.0009,
       "over_extinction": 0.025966,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 5.578953919728479e-16
     },
     {
       "method": "OurMethod_1step",
@@ -555,12 +590,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.007654,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 4.57665318403383e-14
     },
     {
       "method": "OurMethod_1step",
@@ -571,12 +607,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.056935,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 16,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 16
+      "final_p_true": 2.4680257064499666e-17
     },
     {
       "method": "OurMethod_1step",
@@ -587,12 +624,13 @@
       "baseline_prob": 0.0009,
       "over_extinction": 0.014454,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 5.409948082740789e-16
     },
     {
       "method": "OurMethod_1step",
@@ -603,12 +641,13 @@
       "baseline_prob": 0.0004,
       "over_extinction": 0.119292,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 9.246449453729354e-22
     },
     {
       "method": "OurMethod_1step",
@@ -619,12 +658,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.071342,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 2.4060214057858492e-17
     },
     {
       "method": "OurMethod_1step",
@@ -635,12 +675,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.0,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 15,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 15
+      "final_p_true": 7.992809539225654e-12
     },
     {
       "method": "OurMethod_1step",
@@ -651,12 +692,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.030572,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 18,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 18
+      "final_p_true": 2.227099592312669e-17
     },
     {
       "method": "OurMethod_1step",
@@ -667,12 +709,13 @@
       "baseline_prob": 0.0011,
       "over_extinction": 5.1e-05,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 6.438214422851106e-15
     },
     {
       "method": "OurMethod_1step",
@@ -683,12 +726,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.000276,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 23,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 23
+      "final_p_true": 4.6008578891143515e-12
     },
     {
       "method": "OurMethod_1step",
@@ -699,12 +743,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.050714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 1.1860690771804977e-19
     },
     {
       "method": "OurMethod_1step",
@@ -715,12 +760,13 @@
       "baseline_prob": 0.0004,
       "over_extinction": 0.0,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 24,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 24
+      "final_p_true": 3.1526318142621293e-18
     },
     {
       "method": "OurMethod_1step",
@@ -731,12 +777,13 @@
       "baseline_prob": 0.0126,
       "over_extinction": 0.0,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 9.9145103238385e-10
     },
     {
       "method": "OurMethod_1step",
@@ -747,12 +794,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.094286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 2.604622841964437e-28
     },
     {
       "method": "OurMethod_1step",
@@ -763,12 +811,13 @@
       "baseline_prob": 0.0007,
       "over_extinction": 0.068374,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 20,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 20
+      "final_p_true": 8.402194972401995e-25
     },
     {
       "method": "OurMethod_1step",
@@ -779,12 +828,13 @@
       "baseline_prob": 0.0005,
       "over_extinction": 0.034231,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 8,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 8
+      "final_p_true": 5.578826335390799e-16
     },
     {
       "method": "OurMethod_1step",
@@ -795,12 +845,13 @@
       "baseline_prob": 0.0014,
       "over_extinction": 0.063366,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 15,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 15
+      "final_p_true": 3.529056482026329e-18
     },
     {
       "method": "OurMethod_5step",
@@ -811,12 +862,13 @@
       "baseline_prob": 0.0018,
       "over_extinction": 0.047143,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 11,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 11
+      "final_p_true": 1.5415031400952937e-38
     },
     {
       "method": "OurMethod_5step",
@@ -827,12 +879,13 @@
       "baseline_prob": 0.0064,
       "over_extinction": 0.068503,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 16,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 16
+      "final_p_true": 1.6908758520939854e-28
     },
     {
       "method": "OurMethod_5step",
@@ -843,12 +896,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.115714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 4.203895392974451e-45
     },
     {
       "method": "OurMethod_5step",
@@ -859,12 +913,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.089919,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 4.621656168171051e-32
     },
     {
       "method": "OurMethod_5step",
@@ -875,12 +930,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.077143,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 18,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 18
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -891,12 +947,13 @@
       "baseline_prob": 0.0159,
       "over_extinction": 0.0,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 1.3208736326930648e-08
     },
     {
       "method": "OurMethod_5step",
@@ -907,12 +964,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.085714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 20,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 20
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -923,12 +981,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.088209,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -939,12 +998,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.077143,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 18,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 18
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -955,12 +1015,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.072857,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -971,12 +1032,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.072857,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -987,12 +1049,13 @@
       "baseline_prob": 0.0046,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 2.6780389833759927e-37
     },
     {
       "method": "OurMethod_5step",
@@ -1003,12 +1066,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.119064,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 1.5596451907935214e-42
     },
     {
       "method": "OurMethod_5step",
@@ -1019,12 +1083,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.055664,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 13,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 13
+      "final_p_true": 1.401298464324817e-45
     },
     {
       "method": "OurMethod_5step",
@@ -1035,12 +1100,13 @@
       "baseline_prob": 0.0005,
       "over_extinction": 0.064273,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 15,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 15
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1051,12 +1117,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1067,12 +1134,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.115714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1083,12 +1151,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1099,12 +1168,13 @@
       "baseline_prob": 0.0005,
       "over_extinction": 0.051429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 12,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 12
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1115,12 +1185,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.09,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1131,12 +1202,13 @@
       "baseline_prob": 0.0006,
       "over_extinction": 0.111429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 26,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 26
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1147,12 +1219,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.068571,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 16,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 16
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1163,12 +1236,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.094286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1179,12 +1253,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.115714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1195,12 +1270,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.102857,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 24,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 24
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1211,12 +1287,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1227,12 +1304,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.111429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 26,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 26
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1243,12 +1321,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.096492,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 23,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 23
+      "final_p_true": 4.876798915543228e-41
     },
     {
       "method": "OurMethod_5step",
@@ -1259,12 +1338,13 @@
       "baseline_prob": 0.1044,
       "over_extinction": 0.098571,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 23,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 23
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1275,12 +1355,13 @@
       "baseline_prob": 0.0021,
       "over_extinction": 0.111429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 26,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 26
+      "final_p_true": 2.506432498214584e-39
     },
     {
       "method": "OurMethod_5step",
@@ -1291,12 +1372,13 @@
       "baseline_prob": 0.0016,
       "over_extinction": 0.12,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1307,12 +1389,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.089892,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1323,12 +1406,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.12,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1339,12 +1423,13 @@
       "baseline_prob": 0.0009,
       "over_extinction": 0.115703,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1355,12 +1440,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.081412,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1371,12 +1457,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.068571,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 16,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 16
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1387,12 +1474,13 @@
       "baseline_prob": 0.0009,
       "over_extinction": 0.09422,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 2.3401684354224445e-43
     },
     {
       "method": "OurMethod_5step",
@@ -1403,12 +1491,13 @@
       "baseline_prob": 0.0004,
       "over_extinction": 0.12,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1419,12 +1508,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.072857,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1435,12 +1525,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.064286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 15,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 15
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1451,12 +1542,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.077143,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 18,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 18
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1467,12 +1559,13 @@
       "baseline_prob": 0.0011,
       "over_extinction": 0.072777,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1483,12 +1576,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.098571,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 23,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 23
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1499,12 +1593,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1515,12 +1610,13 @@
       "baseline_prob": 0.0004,
       "over_extinction": 0.102847,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 24,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 24
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1531,12 +1627,13 @@
       "baseline_prob": 0.0126,
       "over_extinction": 0.094276,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 6.786348332878657e-41
     },
     {
       "method": "OurMethod_5step",
@@ -1547,12 +1644,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.094286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1563,12 +1661,13 @@
       "baseline_prob": 0.0007,
       "over_extinction": 0.085209,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 20,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 20
+      "final_p_true": 4.168022152287736e-41
     },
     {
       "method": "OurMethod_5step",
@@ -1579,12 +1678,13 @@
       "baseline_prob": 0.0005,
       "over_extinction": 0.034286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 8,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 8
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_5step",
@@ -1595,12 +1695,13 @@
       "baseline_prob": 0.0014,
       "over_extinction": 0.064286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 15,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 15
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1611,12 +1712,13 @@
       "baseline_prob": 0.0018,
       "over_extinction": 0.047143,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 11,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 11
+      "final_p_true": 4.203895392974451e-45
     },
     {
       "method": "OurMethod_10step",
@@ -1627,12 +1729,13 @@
       "baseline_prob": 0.0064,
       "over_extinction": 0.068571,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 16,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 16
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1643,12 +1746,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.115714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1659,12 +1763,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.089991,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1675,12 +1780,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.077143,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 18,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 18
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1691,12 +1797,13 @@
       "baseline_prob": 0.0159,
       "over_extinction": 0.094286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1707,12 +1814,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.085714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 20,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 20
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1723,12 +1831,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.087291,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1739,12 +1848,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.077143,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 18,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 18
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1755,12 +1865,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.072857,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1771,12 +1882,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.072857,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1787,12 +1899,13 @@
       "baseline_prob": 0.0046,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 7.56652825938382e-39
     },
     {
       "method": "OurMethod_10step",
@@ -1803,12 +1916,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.116736,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 1.1210387714598537e-44
     },
     {
       "method": "OurMethod_10step",
@@ -1819,12 +1933,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.055714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 13,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 13
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1835,12 +1950,13 @@
       "baseline_prob": 0.0005,
       "over_extinction": 0.064266,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 15,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 15
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1851,12 +1967,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1867,12 +1984,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.115714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1883,12 +2001,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1899,12 +2018,13 @@
       "baseline_prob": 0.0005,
       "over_extinction": 0.051429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 12,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 12
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1915,12 +2035,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.09,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1931,12 +2052,13 @@
       "baseline_prob": 0.0006,
       "over_extinction": 0.111429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 26,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 26
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1947,12 +2069,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.068571,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 16,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 16
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1963,12 +2086,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.094286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1979,12 +2103,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.115714,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -1995,12 +2120,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.102857,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 24,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 24
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2011,12 +2137,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2027,12 +2154,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.111429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 26,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 26
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2043,12 +2171,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.095466,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 23,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 23
+      "final_p_true": 2.1019476964872256e-44
     },
     {
       "method": "OurMethod_10step",
@@ -2059,12 +2188,13 @@
       "baseline_prob": 0.1044,
       "over_extinction": 0.098571,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 23,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 23
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2075,12 +2205,13 @@
       "baseline_prob": 0.0021,
       "over_extinction": 0.111429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 26,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 26
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2091,12 +2222,13 @@
       "baseline_prob": 0.0016,
       "over_extinction": 0.12,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2107,12 +2239,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.08928,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 21,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 21
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2123,12 +2256,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.12,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2139,12 +2273,13 @@
       "baseline_prob": 0.0009,
       "over_extinction": 0.115703,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 27,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 27
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2155,12 +2290,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.081339,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2171,12 +2307,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.068571,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 16,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 16
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2187,12 +2324,13 @@
       "baseline_prob": 0.0009,
       "over_extinction": 0.094257,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 8.407790785948902e-45
     },
     {
       "method": "OurMethod_10step",
@@ -2203,12 +2341,13 @@
       "baseline_prob": 0.0004,
       "over_extinction": 0.12,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 28,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 28
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2219,12 +2358,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.072857,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2235,12 +2375,13 @@
       "baseline_prob": 0.0002,
       "over_extinction": 0.064286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 15,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 15
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2251,12 +2392,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.077143,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 18,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 18
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2267,12 +2409,13 @@
       "baseline_prob": 0.0011,
       "over_extinction": 0.072813,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 17,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 17
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2283,12 +2426,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.098571,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 23,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 23
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2299,12 +2443,13 @@
       "baseline_prob": 0.0001,
       "over_extinction": 0.081429,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 19,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 19
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2315,12 +2460,13 @@
       "baseline_prob": 0.0004,
       "over_extinction": 0.102847,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 24,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 24
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2331,12 +2477,13 @@
       "baseline_prob": 0.0126,
       "over_extinction": 0.094257,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 6.221765181602188e-43
     },
     {
       "method": "OurMethod_10step",
@@ -2347,12 +2494,13 @@
       "baseline_prob": 0.0,
       "over_extinction": 0.094286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 22,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 22
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2363,12 +2511,13 @@
       "baseline_prob": 0.0007,
       "over_extinction": 0.085157,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 20,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 20
+      "final_p_true": 1.1238413683885033e-42
     },
     {
       "method": "OurMethod_10step",
@@ -2379,12 +2528,13 @@
       "baseline_prob": 0.0005,
       "over_extinction": 0.034282,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 8,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 8
+      "final_p_true": 0.0
     },
     {
       "method": "OurMethod_10step",
@@ -2395,12 +2545,13 @@
       "baseline_prob": 0.0014,
       "over_extinction": 0.064286,
       "kl_final": 0.0,
-      "oe_source": "synthetic_approx",
+      "oe_damage": null,
       "neighborhood_preservation": null,
+      "oe_source": "synthetic_approx",
+      "n_mlp": 15,
       "paraphrase_success": null,
       "locality_drop": null,
-      "oe_damage": null,
-      "n_mlp": 15
+      "final_p_true": 0.0
     }
   ]
 }

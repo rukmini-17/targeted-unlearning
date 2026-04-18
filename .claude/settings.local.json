@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(git -C /Users/aneeshsathe/Desktop/targeted-unlearning log --oneline --all --decorate)",
+      "Bash(git -C /Users/aneeshsathe/Desktop/targeted-unlearning log --all --pretty=format:\"%h %s\" --grep=\"ITI\\\\|LoRA\\\\|AlphaEdit\\\\|8B\\\\|LLaMA\")",
+      "Bash(git -C /Users/aneeshsathe/Desktop/targeted-unlearning show --name-status HEAD)",
+      "Bash(git -C /Users/aneeshsathe/Desktop/targeted-unlearning/ log --oneline -20)",
+      "Bash(jupyter --version)",
+      "Bash(uv run *)"
+    ]
+  }
+}

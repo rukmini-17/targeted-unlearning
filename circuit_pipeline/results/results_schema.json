@@ -1,69 +1,109 @@
 {
-  "version": "1.0",
-  "description": "Standardized output schema for targeted unlearning evaluation harness (Person B, CS 590NN)",
+  "version": "1.1",
+  "description": "Standardized output schema for targeted unlearning evaluation harness (Person B, CS 590NN). v1.1 documents fields that were already emitted by the harness in v1.0 outputs but were not formally specified.",
+  "changelog": {
+    "1.1": "Added oe_damage, n_mlp, oe_source, final_p_true. Renamed kl_final -> training_loss_final (Person A's field carries contrastive loss; KL is disabled per sprint contingency). Added summary-level tqa_exposure_rate and pareto_methods.",
+    "1.0": "Initial schema: method, model, idx, n_steps, edit_success, paraphrase_success, over_extinction, neighborhood_preservation, locality_drop, kl_final."
+  },
   "fields": {
     "method": {
       "type": "string",
-      "description": "Edit method name (e.g. 'ROME', 'OurMethod_1step', 'OurMethod_3step')"
+      "description": "Edit method name. Examples: 'ROME', 'MEMIT', 'OurMethod_1step', 'OurMethod_5step', 'OurMethod_10step'."
     },
     "model": {
       "type": "string",
-      "description": "HuggingFace model ID used for evaluation"
+      "description": "HuggingFace model ID used for evaluation (e.g. 'Qwen/Qwen3-0.6B')."
     },
     "idx": {
       "type": "int",
-      "description": "CounterFact sample index (0-49)"
+      "description": "CounterFact sample index (0-49 for the 50-sample study)."
     },
     "n_steps": {
       "type": "int",
-      "description": "Number of unlearning/edit steps applied"
+      "description": "Number of unlearning/edit steps applied. 1 for one-shot methods (ROME, MEMIT); 1/5/10 for our multi-step method."
     },
     "edit_success": {
       "type": "float",
-      "range": [
-        0.0,
-        1.0
-      ],
-      "description": "1.0 if gen_after contains target_new (substring match); 0.0 otherwise"
+      "range": [0.0, 1.0],
+      "description": "1.0 if gen_after contains target_new (substring match); 0.0 otherwise. Aggregate reported as edit_success_rate in summary."
     },
     "paraphrase_success": {
       "type": "float",
-      "range": [
-        0.0,
-        1.0
-      ],
-      "description": "Fraction of paraphrase prompts where model outputs target_new after edit"
+      "range": [0.0, 1.0],
+      "nullable": true,
+      "description": "Fraction of paraphrase prompts where model outputs target_new after edit. Null when not computed (DRY_RUN=True path for OurMethod)."
     },
     "over_extinction": {
       "type": "float",
-      "range": [
-        0.0,
-        1.0
-      ],
-      "description": "OE_bleed: fraction of neighborhood prompts where edited model outputs target_new. Primary over-extinction signal. 0.0 = perfectly specific edit, 1.0 = catastrophic bleed."
+      "range": [0.0, 1.0],
+      "description": "OE_bleed: fraction of neighborhood prompts where edited model outputs target_new. Primary over-extinction signal. 0.0 = perfectly specific edit; 1.0 = catastrophic bleed. In DRY_RUN=True for OurMethod this is a structural approximation (see oe_source)."
     },
     "neighborhood_preservation": {
       "type": "float",
-      "range": [
-        0.0,
-        1.0
-      ],
-      "description": "Fraction of neighborhood prompts where model still outputs true answer after edit"
+      "range": [0.0, 1.0],
+      "nullable": true,
+      "description": "Fraction of neighborhood prompts where model still outputs target_true after edit. Populated for baselines; null for OurMethod until DRY_RUN=False run."
+    },
+    "oe_damage": {
+      "type": "float",
+      "range": [0.0, 1.0],
+      "nullable": true,
+      "description": "Collateral damage rate: of neighbors the BASE model answered correctly, what fraction does the edited model break? Null in DRY_RUN=True (requires pre-edit baseline inference)."
     },
     "locality_drop": {
       "type": "float",
       "nullable": true,
-      "description": "MMLU accuracy drop (mmlu_before - mmlu_after). Positive = degradation, negative = improvement, null = not yet computed."
+      "description": "MMLU accuracy drop (mmlu_before - mmlu_after). Positive = degradation; negative = improvement; null = not yet computed. Currently null for all methods."
     },
-    "kl_final": {
+    "baseline_prob": {
+      "type": "float",
+      "range": [0.0, 1.0],
+      "nullable": true,
+      "description": "Pre-edit probability that the base model assigns to target_true on the edit prompt. Pass-through from baseline pipelines."
+    },
+    "n_mlp": {
+      "type": "int",
+      "nullable": true,
+      "description": "Circuit size from Person A's ACDC pass: number of MLP layers in the discovered circuit for this sample. Null for baselines (ROME/MEMIT operate at a fixed layer, not a circuit). Range on Qwen3-0.6B: 0-28."
+    },
+    "oe_source": {
+      "type": "string",
+      "enum": ["synthetic_approx", "live_inference", "baseline_live"],
+      "description": "Provenance tag. synthetic_approx = Person B's structural formula (DRY_RUN=True for OurMethod). live_inference = DRY_RUN=False run on GPU. baseline_live = Person C's live inference for ROME/MEMIT. Required for any paper-facing claim."
+    },
+    "final_p_true": {
+      "type": "float",
+      "range": [0.0, 1.0],
+      "nullable": true,
+      "description": "Pass-through from circuit_pipeline/results/week3_ablation.json: post-edit probability of target_true on the edit prompt. Used by the synthetic OE formula in DRY_RUN=True."
+    },
+    "training_loss_final": {
       "type": "float",
       "nullable": true,
-      "description": "Final KL divergence from circuit pipeline (Person A field, pass-through)"
+      "description": "Final training-step loss value from Person A's ablation pipeline. v1.0 called this kl_final, but the KL penalty (Step 4 of the 4-step reconsolidation protocol) is DISABLED per sprint contingency (L4 GPU OOMs at 22 GB), so the field actually carries contrastive loss. Renamed in v1.1 to avoid the misreading that KL converged to 0. Null for baselines."
+    }
+  },
+  "summary_fields": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version (1.1). Consumers should assert compatibility before reading."
+    },
+    "pareto_methods": {
+      "type": "array[string]",
+      "description": "List of method names on the non-dominated Pareto frontier (edit_success vs 1 - over_extinction). Computed inline in the harness notebook."
+    },
+    "tqa_exposure_rate": {
+      "type": "object",
+      "description": "GPU-free TruthfulQA hold-out signal: fraction of TruthfulQA items that lexically overlap with each edit's target_new. Not an OE measurement; an upper bound on at-risk items."
+    },
+    "tqa_oe_projected_upper_bound": {
+      "type": "object",
+      "description": "Conservative projection of per-method TruthfulQA OE as 0.8 * counterfact_oe_bleed. DRY_RUN only; replace with live inference for paper-quality numbers."
     }
   },
   "notes": [
-    "Schema is backward-compatible with week3_harness_output.json",
-    "over_extinction field was null in week3_harness_output.json \u2014 Person B fills this in Week 2",
-    "neighborhood_bleed and over_extinction are the same metric (OE_bleed) \u2014 aligned in Week 2"
+    "Schema v1.1 is backward-compatible with v1.0: all v1.0 consumers still work on v1.1 outputs (they just ignore the new fields).",
+    "kl_final is accepted as an alias for training_loss_final in ingest code until all producers migrate.",
+    "Consumers reading v1.1 outputs should assert schema_version == '1.1' and inspect oe_source before making paper-facing claims."
   ]
 }

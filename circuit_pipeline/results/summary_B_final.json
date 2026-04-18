@@ -1,53 +1,95 @@
 {
   "project": "Reconsolidation-Inspired Targeted Unlearning in LLMs",
   "model": "Qwen/Qwen3-0.6B",
-  "date": "2026-03-16",
-  "oe_source": "synthetic_approx",
-  "oe_note": "DRY_RUN=True: OE values are structural approximations. Run with DRY_RUN=False for paper results.",
+  "schema_version": "1.1",
+  "date": "2026-04-18",
+  "ourmethod_oe_source": "synthetic_approx",
+  "baselines_oe_source": "baseline_live",
+  "oe_note": "DRY_RUN=True: OurMethod OE values are structural approximations. ROME/MEMIT numbers are from Person C's live inference. Run with DRY_RUN=False for OurMethod live OE + neighborhood metrics.",
+  "metric_clarification": "Two complementary over-extinction metrics: (1) over_extinction / OE_bleed: fraction of neighborhood prompts where the NEW target bleeds in. ROME=0.693, MEMIT=0.513 per Person C's live run. (2) collateral_damage_rate = 1 - neighborhood_preservation: fraction of related facts disrupted. ROME=0.993, MEMIT=0.933 per Person C's per-sample rows. The proposal's 'collateral refusal' claim refers to metric (2). OurMethod's collateral_damage_rate can only be compared with DRY_RUN=False.",
   "methods": {
     "ROME": {
-      "edit_success": 1.0,
-      "over_extinction": 0.0,
-      "neighborhood_preservation": 0.2,
-      "paraphrase_success": 0.0,
-      "locality_drop": 0.0
+      "edit_success": 0.9868,
+      "over_extinction_bleed": 0.6933,
+      "neighborhood_preservation": 0.02,
+      "collateral_damage_rate": 0.98,
+      "paraphrase_success": 0.86,
+      "locality_drop": null,
+      "n_samples": 50,
+      "oe_source": "baseline_live"
+    },
+    "MEMIT": {
+      "edit_success": 0.9771,
+      "over_extinction_bleed": 0.5133,
+      "neighborhood_preservation": 0.0667,
+      "collateral_damage_rate": 0.9333,
+      "paraphrase_success": 0.85,
+      "locality_drop": null,
+      "n_samples": 50,
+      "oe_source": "baseline_live"
     },
     "OurMethod_1step": {
       "avg_edit_success": 0.4619,
-      "avg_over_extinction": 0.0404,
-      "n_samples": 50
+      "avg_over_extinction_bleed": 0.0404,
+      "avg_neighborhood_preservation": "TBD \u2014 requires DRY_RUN=False",
+      "n_samples": 50,
+      "oe_source": "synthetic_approx"
     },
     "OurMethod_5step": {
       "avg_edit_success": 0.9788,
-      "avg_over_extinction": 0.0856,
-      "n_samples": 50
+      "avg_over_extinction_bleed": 0.0856,
+      "avg_neighborhood_preservation": "TBD \u2014 requires DRY_RUN=False",
+      "n_samples": 50,
+      "oe_source": "synthetic_approx"
     },
     "OurMethod_10step": {
       "avg_edit_success": 0.9979,
-      "avg_over_extinction": 0.0874,
-      "n_samples": 50
+      "avg_over_extinction_bleed": 0.0874,
+      "avg_neighborhood_preservation": "TBD \u2014 requires DRY_RUN=False",
+      "n_samples": 50,
+      "oe_source": "synthetic_approx"
     }
   },
+  "pareto_methods": [
+    "OurMethod_1step",
+    "OurMethod_5step",
+    "OurMethod_10step"
+  ],
   "spearman_mlp_scope_vs_oe": {
+    "_WARNING": "DRY_RUN=True: rho is mechanically inflated (n_mlp is in the synthetic OE formula). Not an empirical result.",
     "1step": {
-      "rho": 0.2193,
-      "p_note": "approx \u2014 use scipy for exact p-values"
+      "rho": 0.213,
+      "p": 0.1375
     },
     "5step": {
-      "rho": 0.9552,
-      "p_note": "approx \u2014 use scipy for exact p-values"
+      "rho": 0.9507,
+      "p": 0.0
     },
     "10step": {
-      "rho": 0.9964,
-      "p_note": "approx \u2014 use scipy for exact p-values"
+      "rho": 0.9984,
+      "p": 0.0
     }
   },
-  "truthfulqa_holdout_oe": {
-    "note": "DRY_RUN=True: approximated as 0.8 * counterfact_oe_bleed",
-    "OurMethod_1step": 0.03232,
-    "OurMethod_5step": 0.06848,
-    "OurMethod_10step": 0.06992,
-    "ROME": 0.0
+  "tqa_oe_projected_upper_bound": {
+    "_note": "Synthetic projection: 0.8 \u00d7 counterfact OE_bleed. Placeholder until DRY_RUN=False run.",
+    "ROME": 0.554667,
+    "MEMIT": 0.410667,
+    "OurMethod_1step": 0.032297,
+    "OurMethod_5step": 0.068478,
+    "OurMethod_10step": 0.06991
   },
-  "key_finding": "Circuit-targeted gradient edits on Qwen/Qwen3-0.6B achieve up to 99.8% edit success with synthetic OE_bleed positively correlated with circuit scope (n_mlp). ROME provides the specificity ceiling (OE=0) while our method gains paraphrase generalization. NOTE: OE values are synthetic approximations \u2014 GPU inference required for paper-quality results."
+  "tqa_exposure_rate": {
+    "_note": "Fraction of TruthfulQA items whose question/answer text lexically overlaps with any edit target_new. GPU-free upper bound on at-risk items; NOT a direct OE measurement.",
+    "all_items": 0.0869,
+    "keyword_filtered": 0.2373,
+    "edit_target_token_count": 42
+  },
+  "todos_before_paper": [
+    "Run with DRY_RUN=False on GPU to get OurMethod live OE_bleed and neighborhood_preservation (critical: needed to validate the paper's central claim that our method reduces collateral damage vs ROME/MEMIT).",
+    "20-step ablation (proposal specifies 1/5/10/20; Person A ran 1/5/10 only). Requires GPU from Person A.",
+    "KL penalty in edit loop. Accepted as OUT OF SCOPE per sprint contingency (L4 GPU OOMs on KL). Document as limitation in paper.",
+    "Optional: ITI / LoRA / AlphaEdit baselines from Person C (sprint contingency allows dropping to 4-method comparison).",
+    "Optional: scale to LLaMA-3-8B (sprint contingency allows staying on Qwen3-0.6B)."
+  ],
+  "key_finding": "On Qwen3-0.6B / 50 CounterFact samples, ROME and MEMIT achieve very high edit success (0.987 and 0.977) but suffer substantial OE_bleed (0.693 and 0.513) AND catastrophic collateral damage (preservation 0.020 / 0.067). OurMethod 5/10-step reaches comparable edit success with much lower synthetic OE_bleed (0.04-0.09). The Pareto frontier covers multiple non-dominated methods, confirming the expected specificity-generalization tradeoff. Whether OurMethod also REDUCES collateral damage (the proposal's 'over-extinction') vs. one-shot baselines requires DRY_RUN=False on GPU."
 }
