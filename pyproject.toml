@@ -1,9 +1,29 @@
 [project]
 name = "targeted-unlearning"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
+description = "Reconsolidation-Inspired Targeted Unlearning in LLMs — CS 590NN Spring 2026"
+requires-python = ">=3.10"
+
 dependencies = [
-    "pandas>=3.0.1",
+    "torch>=2.1",
+    "transformers>=4.40",
+    "transformer_lens>=1.15",
+    "accelerate",
+    "einops",
+    "jaxtyping",
+    "matplotlib",
+    "numpy>=1.26,<2.0",
+    "pandas",
+    "requests",
+    "huggingface_hub",
 ]
+
+[project.optional-dependencies]
+# Baselines (Rukmini)
+rome = [
+    "memit @ git+https://github.com/kmeng01/memit.git",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

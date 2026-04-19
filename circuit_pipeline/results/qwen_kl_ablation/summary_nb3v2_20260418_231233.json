@@ -1,0 +1,68 @@
+{
+  "author": "Amogh",
+  "notebook": "Notebook 3 v2 \u2014 KL-Stabilized Reconsolidation (Polished)",
+  "model": "Qwen/Qwen3-0.6B",
+  "timestamp": "20260418_231233",
+  "n_samples": 50,
+  "step_counts": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "lr": 0.005,
+  "beta_kl": 0.1,
+  "grad_clip": 1.0,
+  "kl_active": true,
+  "neutral_set_size": 32,
+  "notebook_version": "v2_polished",
+  "fixes_applied": [
+    "kl_final measurement moved after loop (fixes 1-step kl=0 bug)",
+    "Per-step KL and p_new trajectory tracking",
+    "Gradient clipping at max_norm=1.0",
+    "Per-sample try/except for robustness",
+    "Figures saved inline (kl_vs_steps, edit_vs_steps)"
+  ],
+  "ablation_summary": {
+    "OurMethod_1step": {
+      "avg_edit_success": 0.258,
+      "avg_baseline": 0.0032,
+      "avg_delta": 0.2548,
+      "avg_kl_final": 13.0616,
+      "avg_delta_kl": 13.0616,
+      "pct_flipped": 0.24,
+      "n_ok": 50,
+      "n_failed": 0
+    },
+    "OurMethod_5step": {
+      "avg_edit_success": 0.8954,
+      "avg_baseline": 0.0032,
+      "avg_delta": 0.8923,
+      "avg_kl_final": 30.3746,
+      "avg_delta_kl": 30.3746,
+      "pct_flipped": 0.9,
+      "n_ok": 50,
+      "n_failed": 0
+    },
+    "OurMethod_10step": {
+      "avg_edit_success": 0.9178,
+      "avg_baseline": 0.0032,
+      "avg_delta": 0.9146,
+      "avg_kl_final": 25.5951,
+      "avg_delta_kl": 25.5951,
+      "pct_flipped": 0.92,
+      "n_ok": 50,
+      "n_failed": 0
+    },
+    "OurMethod_20step": {
+      "avg_edit_success": 0.9773,
+      "avg_baseline": 0.0032,
+      "avg_delta": 0.9741,
+      "avg_kl_final": 9.8803,
+      "avg_delta_kl": 9.8803,
+      "pct_flipped": 0.98,
+      "n_ok": 50,
+      "n_failed": 0
+    }
+  }
+}

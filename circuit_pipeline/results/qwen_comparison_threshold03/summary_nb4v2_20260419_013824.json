@@ -1,0 +1,52 @@
+{
+  "author": "Amogh",
+  "notebook": "Notebook 4 v2 \u2014 Circuit Comparison (Expt 2, Polished)",
+  "model": "Qwen/Qwen3-0.6B",
+  "timestamp": "20260419_013824",
+  "n_samples": 50,
+  "n_steps": 5,
+  "beta_kl": 0.1,
+  "grad_clip": 1.0,
+  "methods": [
+    "OurMethod_ACDC",
+    "OurMethod_ROMEtrace",
+    "OurMethod_Random"
+  ],
+  "notebook_version": "v2_polished",
+  "fixes_applied": [
+    "KL measured after each step (Notebook 3 v2 fix)",
+    "Per-step KL and p_new trajectories",
+    "Gradient clipping at max_norm=1.0",
+    "Per-sample try/except",
+    "Three figures saved inline (Pareto, bars, trajectory)"
+  ],
+  "summary": {
+    "OurMethod_ACDC": {
+      "avg_edit_success": 0.893,
+      "avg_kl_final": 32.0043,
+      "avg_delta_kl": 32.0043,
+      "avg_n_mlp": 10.96,
+      "pct_flipped": 0.9,
+      "n_ok": 50,
+      "n_failed": 0
+    },
+    "OurMethod_ROMEtrace": {
+      "avg_edit_success": 0.9531,
+      "avg_kl_final": 18.3031,
+      "avg_delta_kl": 18.3031,
+      "avg_n_mlp": 5.0,
+      "pct_flipped": 0.96,
+      "n_ok": 50,
+      "n_failed": 0
+    },
+    "OurMethod_Random": {
+      "avg_edit_success": 0.9135,
+      "avg_kl_final": 27.1436,
+      "avg_delta_kl": 27.1436,
+      "avg_n_mlp": 10.96,
+      "pct_flipped": 0.92,
+      "n_ok": 50,
+      "n_failed": 0
+    }
+  }
+}

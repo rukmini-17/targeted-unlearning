@@ -1,0 +1,30 @@
+{
+  "author": "Amogh",
+  "notebook": "Notebook 3 FAST (GPT-2-XL) \u2014 KL-Stabilized Reconsolidation",
+  "model": "gpt2-xl",
+  "timestamp": "20260419_062037",
+  "n_samples": 20,
+  "step_counts": [
+    5,
+    20
+  ],
+  "fast_version": true,
+  "beta_kl": 0.1,
+  "grad_clip": 1.0,
+  "summary": {
+    "OurMethod_5step_gpt2xl": {
+      "avg_edit_success": 0.9934,
+      "avg_kl_final": 20.8343,
+      "pct_flipped": 1.0,
+      "n_ok": 20,
+      "n_failed": 0
+    },
+    "OurMethod_20step_gpt2xl": {
+      "avg_edit_success": 0.9899,
+      "avg_kl_final": 4.0027,
+      "pct_flipped": 1.0,
+      "n_ok": 20,
+      "n_failed": 0
+    }
+  }
+}

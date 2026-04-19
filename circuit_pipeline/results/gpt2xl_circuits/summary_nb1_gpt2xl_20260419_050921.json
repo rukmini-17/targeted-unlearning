@@ -1,0 +1,73 @@
+{
+  "author": "Amogh",
+  "notebook": "Notebook 1 FAST (GPT-2-XL) \u2014 ACDC Circuit Discovery",
+  "model": "gpt2-xl",
+  "timestamp": "20260419_050921",
+  "n_samples": 20,
+  "threshold": 0.4,
+  "effect_floor": 0.5,
+  "fast_version": true,
+  "circuit_summary": {
+    "avg_attn_per_sample": 0.55,
+    "avg_mlp_per_sample": 3.3,
+    "median_n_attn": 0,
+    "median_n_mlp": 1,
+    "max_n_attn": 11,
+    "max_n_mlp": 35,
+    "top_attn_heads": [
+      [
+        "(24, 4)",
+        1
+      ],
+      [
+        "(30, 1)",
+        1
+      ],
+      [
+        "(30, 8)",
+        1
+      ],
+      [
+        "(31, 0)",
+        1
+      ],
+      [
+        "(31, 8)",
+        1
+      ]
+    ],
+    "top_mlp_layers": [
+      [
+        "0",
+        19
+      ],
+      [
+        "1",
+        4
+      ],
+      [
+        "4",
+        2
+      ],
+      [
+        "2",
+        2
+      ],
+      [
+        "12",
+        2
+      ]
+    ],
+    "n_samples_effect_clamped": 2
+  },
+  "comparison_vs_qwen_v21": {
+    "avg_attn": {
+      "qwen": 21.4,
+      "gpt2xl": 0.55
+    },
+    "avg_mlp": {
+      "qwen": 10.96,
+      "gpt2xl": 3.3
+    }
+  }
+}

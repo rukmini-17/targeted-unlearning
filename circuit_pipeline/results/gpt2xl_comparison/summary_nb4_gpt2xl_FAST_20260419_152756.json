@@ -1,0 +1,42 @@
+{
+  "author": "Amogh",
+  "notebook": "Notebook 4 FAST (GPT-2-XL) \u2014 Circuit Comparison",
+  "model": "gpt2-xl",
+  "timestamp": "20260419_152756",
+  "n_samples": 20,
+  "n_steps": 5,
+  "fast_version": true,
+  "beta_kl": 0.1,
+  "grad_clip": 1.0,
+  "methods": [
+    "OurMethod_ACDC_gpt2xl",
+    "OurMethod_ROMEtrace_gpt2xl",
+    "OurMethod_Random_gpt2xl"
+  ],
+  "summary": {
+    "OurMethod_ACDC_gpt2xl": {
+      "avg_edit_success": 0.9934,
+      "avg_kl_final": 20.8392,
+      "avg_n_mlp": 3.3,
+      "pct_flipped": 1.0,
+      "n_ok": 20,
+      "n_failed": 0
+    },
+    "OurMethod_ROMEtrace_gpt2xl": {
+      "avg_edit_success": 0.998,
+      "avg_kl_final": 28.2995,
+      "avg_n_mlp": 5.0,
+      "pct_flipped": 1.0,
+      "n_ok": 20,
+      "n_failed": 0
+    },
+    "OurMethod_Random_gpt2xl": {
+      "avg_edit_success": 0.9469,
+      "avg_kl_final": 13.3915,
+      "avg_n_mlp": 3.3,
+      "pct_flipped": 0.95,
+      "n_ok": 20,
+      "n_failed": 0
+    }
+  }
+}
