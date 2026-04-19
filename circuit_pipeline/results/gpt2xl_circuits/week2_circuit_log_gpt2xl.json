@@ -1,0 +1,373 @@
+[
+  {
+    "idx": 0,
+    "prompt": "The mother tongue of Danielle Darrieux is",
+    "attn_heads": [],
+    "mlp_layers": [
+      0,
+      1,
+      4
+    ],
+    "clean_score": 1.8192,
+    "corrupt_score": -0.041,
+    "raw_effect": 1.8601,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 3
+  },
+  {
+    "idx": 1,
+    "prompt": "The official religion of Edwin of Northumbria is",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 3.2732,
+    "corrupt_score": -0.4177,
+    "raw_effect": 3.6909,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 2,
+    "prompt": "Toko Yasuda, the",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": -0.26,
+    "corrupt_score": 0.6101,
+    "raw_effect": 0.8701,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 3,
+    "prompt": "Autonomous University of Madrid, which is located in",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 9.3994,
+    "corrupt_score": 0.6664,
+    "raw_effect": 8.7329,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 4,
+    "prompt": "What is the twin city of Lyon? It is",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 3.627,
+    "corrupt_score": -1.4169,
+    "raw_effect": 5.044,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 5,
+    "prompt": "The mother tongue of Thomas Joannes Stieltjes is",
+    "attn_heads": [
+      [
+        24,
+        4
+      ],
+      [
+        30,
+        1
+      ],
+      [
+        30,
+        8
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        31,
+        8
+      ],
+      [
+        33,
+        7
+      ],
+      [
+        35,
+        19
+      ],
+      [
+        36,
+        17
+      ],
+      [
+        39,
+        10
+      ],
+      [
+        41,
+        18
+      ],
+      [
+        42,
+        24
+      ]
+    ],
+    "mlp_layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      24,
+      25,
+      29,
+      30,
+      31,
+      34,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      46,
+      47
+    ],
+    "clean_score": 0.933,
+    "corrupt_score": 0.4968,
+    "raw_effect": 0.4362,
+    "effect_clamped": true,
+    "n_attn": 11,
+    "n_mlp": 35
+  },
+  {
+    "idx": 6,
+    "prompt": "Anaal Nathrakh, that was created in",
+    "attn_heads": [],
+    "mlp_layers": [
+      1,
+      2,
+      7,
+      12,
+      13,
+      14,
+      15,
+      19,
+      32
+    ],
+    "clean_score": -0.8132,
+    "corrupt_score": -0.7455,
+    "raw_effect": 0.0677,
+    "effect_clamped": true,
+    "n_attn": 0,
+    "n_mlp": 9
+  },
+  {
+    "idx": 7,
+    "prompt": "Apple A5 was created by",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 5.7319,
+    "corrupt_score": -1.6429,
+    "raw_effect": 7.3749,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 8,
+    "prompt": "What is the twin city of Wellington? It is",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 4.4598,
+    "corrupt_score": 2.3509,
+    "raw_effect": 2.1089,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 9,
+    "prompt": "Shree Pundalik, created in",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 4.035,
+    "corrupt_score": -0.7748,
+    "raw_effect": 4.8098,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 10,
+    "prompt": "BBC One, by",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 11.5972,
+    "corrupt_score": 1.4798,
+    "raw_effect": 10.1174,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 11,
+    "prompt": "Andreas Ivanschitz professionally plays the sport",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 0.2347,
+    "corrupt_score": -1.3093,
+    "raw_effect": 1.5441,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 12,
+    "prompt": "Michel Denisot spoke the language",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 2.5197,
+    "corrupt_score": -0.0187,
+    "raw_effect": 2.5384,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 13,
+    "prompt": "Ferrari F40, developed by",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 8.6641,
+    "corrupt_score": -4.0451,
+    "raw_effect": 12.7092,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 14,
+    "prompt": "The mother tongue of Go Hyeon-jeong is",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 5.7938,
+    "corrupt_score": -3.581,
+    "raw_effect": 9.3749,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 15,
+    "prompt": "Percy Snow, the",
+    "attn_heads": [],
+    "mlp_layers": [
+      0,
+      1,
+      16
+    ],
+    "clean_score": -1.3372,
+    "corrupt_score": 0.4807,
+    "raw_effect": 1.8178,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 3
+  },
+  {
+    "idx": 16,
+    "prompt": "Saint Petersburg is a twin city of",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 2.2402,
+    "corrupt_score": -3.2428,
+    "raw_effect": 5.483,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 17,
+    "prompt": "The original language of The Icelandic Dream was",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 6.0877,
+    "corrupt_score": -0.5435,
+    "raw_effect": 6.6312,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 18,
+    "prompt": "Porsche 911, created by",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 10.6661,
+    "corrupt_score": -0.1621,
+    "raw_effect": 10.8283,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  },
+  {
+    "idx": 19,
+    "prompt": "Robert William Muench is a",
+    "attn_heads": [],
+    "mlp_layers": [
+      0
+    ],
+    "clean_score": 4.6061,
+    "corrupt_score": 1.3639,
+    "raw_effect": 3.2422,
+    "effect_clamped": false,
+    "n_attn": 0,
+    "n_mlp": 1
+  }
+]

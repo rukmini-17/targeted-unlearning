@@ -1,0 +1,86 @@
+{
+  "author": "Amogh",
+  "notebook": "Notebook 1 v2.2 \u2014 ACDC Circuit Discovery (threshold=0.5)",
+  "model": "Qwen/Qwen3-0.6B",
+  "timestamp": "20260419_021646",
+  "n_samples": 50,
+  "threshold": 0.5,
+  "effect_floor": 0.5,
+  "is_sensitivity_ablation": true,
+  "complements": "week2_circuit_log_v2.1.json (threshold=0.3)",
+  "circuit_summary": {
+    "avg_attn_per_sample": 9.22,
+    "avg_mlp_per_sample": 6.52,
+    "median_n_attn": 2,
+    "median_n_mlp": 4,
+    "max_n_attn": 66,
+    "max_n_mlp": 22,
+    "top_attn_heads": [
+      [
+        "(0, 3)",
+        25
+      ],
+      [
+        "(0, 12)",
+        20
+      ],
+      [
+        "(0, 7)",
+        16
+      ],
+      [
+        "(0, 14)",
+        13
+      ],
+      [
+        "(0, 15)",
+        13
+      ]
+    ],
+    "top_mlp_layers": [
+      [
+        "0",
+        33
+      ],
+      [
+        "3",
+        25
+      ],
+      [
+        "1",
+        22
+      ],
+      [
+        "2",
+        22
+      ],
+      [
+        "4",
+        18
+      ]
+    ],
+    "mlp_size_distribution": {
+      "<=2": 13,
+      "3-5": 12,
+      "6-10": 5,
+      "11-20": 12,
+      ">20": 1
+    },
+    "n_samples_effect_clamped": 5,
+    "effect_vs_nattn_pearson": -0.516
+  },
+  "comparison_vs_v21": {
+    "avg_attn": {
+      "v2.1": 21.4,
+      "v2.2": 9.22
+    },
+    "avg_mlp": {
+      "v2.1": 10.96,
+      "v2.2": 6.52
+    },
+    "median_mlp": {
+      "v2.1": 10,
+      "v2.2": 4
+    }
+  }
+}

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Colab artifacts
+/content/
+sample_data/
+
+# Build artifacts
+/build/
+/dist/
+*.egg-info/
+
+# Environment
+.env
+.env.local
