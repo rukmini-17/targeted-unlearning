@@ -1,0 +1,134 @@
+{
+  "author": "Amogh",
+  "notebook": "Notebook 5 v3 \u2014 Sequential Editing (protected B)",
+  "model": "Qwen/Qwen3-0.6B",
+  "timestamp": "20260424_220951",
+  "n_pairs": {
+    "shared": 15,
+    "disjoint": 14
+  },
+  "config": {
+    "n_steps_A": 5,
+    "n_steps_B": 3,
+    "beta_kl": 0.1,
+    "beta_protect": 0.3,
+    "grad_clip": 1.0,
+    "lr": 0.005
+  },
+  "summary": {
+    "shared__ACDC": {
+      "n": 15,
+      "retention_A": {
+        "mean": 0.1301310313116242,
+        "std": 0.3318662002113695
+      },
+      "retention_A_abs": {
+        "mean": 0.13011938401842046,
+        "std": 0.33183795118835985
+      },
+      "success_B": {
+        "mean": 0.7660821888246574,
+        "std": 0.39122862162515243
+      },
+      "kl_super_additivity": {
+        "mean": -27.12493807474772,
+        "std": 18.330805440707714
+      }
+    },
+    "shared__ROMEtrace": {
+      "n": 15,
+      "retention_A": {
+        "mean": 0.3221086732732531,
+        "std": 0.43901701778949226
+      },
+      "retention_A_abs": {
+        "mean": 0.32104494191174243,
+        "std": 0.4381548696752182
+      },
+      "success_B": {
+        "mean": 0.5744900788151136,
+        "std": 0.4648987409782737
+      },
+      "kl_super_additivity": {
+        "mean": -13.274652671813964,
+        "std": 14.447574284689574
+      }
+    },
+    "shared__Random": {
+      "n": 15,
+      "retention_A": {
+        "mean": 15.579372160370735,
+        "std": 57.229376839086626
+      },
+      "retention_A_abs": {
+        "mean": 0.27307667442884853,
+        "std": 0.43579074732760026
+      },
+      "success_B": {
+        "mean": 0.7943621840405588,
+        "std": 0.34909814141304674
+      },
+      "kl_super_additivity": {
+        "mean": -28.52562249501546,
+        "std": 21.455603635093592
+      }
+    },
+    "disjoint__ACDC": {
+      "n": 14,
+      "retention_A": {
+        "mean": 4466.630419563887,
+        "std": 16103.535999214908
+      },
+      "retention_A_abs": {
+        "mean": 0.3586074256850234,
+        "std": 0.4734653729206939
+      },
+      "success_B": {
+        "mean": 0.644769439310754,
+        "std": 0.47628930803767694
+      },
+      "kl_super_additivity": {
+        "mean": -31.519420419420516,
+        "std": 23.141899587926098
+      }
+    },
+    "disjoint__ROMEtrace": {
+      "n": 14,
+      "retention_A": {
+        "mean": 0.18719326837254788,
+        "std": 0.33928629279262884
+      },
+      "retention_A_abs": {
+        "mean": 0.18700922307333911,
+        "std": 0.3393454285492402
+      },
+      "success_B": {
+        "mean": 0.845359017373994,
+        "std": 0.34492976075389936
+      },
+      "kl_super_additivity": {
+        "mean": -12.960646016257149,
+        "std": 12.185822713366306
+      }
+    },
+    "disjoint__Random": {
+      "n": 14,
+      "retention_A": {
+        "mean": 0.2890439135418031,
+        "std": 0.4483784536409085
+      },
+      "retention_A_abs": {
+        "mean": 0.2890194590458669,
+        "std": 0.4483527396710791
+      },
+      "success_B": {
+        "mean": 0.8543476982862371,
+        "std": 0.3489103943928101
+      },
+      "kl_super_additivity": {
+        "mean": -28.197231394904,
+        "std": 23.61631994871242
+      }
+    }
+  }
+}
