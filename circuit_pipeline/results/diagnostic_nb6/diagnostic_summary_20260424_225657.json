@@ -1,0 +1,31 @@
+{
+  "notebook": "Notebook 6 \u2014 Diagnostic Analysis",
+  "timestamp": "20260424_225657",
+  "input_rows": 87,
+  "d1_edit_A_success": {
+    "frac_with_p_new_A_postA_above_05": 0.896551724137931,
+    "interpretation": "If <50%, the original null was a measurement-floor artifact: most edit-A's didn't even succeed."
+  },
+  "d2_circuit_size_predicts_retention": {
+    "spearman_n_mlp_total_vs_retention": -0.0970072990883658,
+    "interpretation": "Negative correlation = larger circuits destroy retention. Positive = smaller circuits destroy it. Near-zero = circuit size isn't the explanatory variable."
+  },
+  "d4_kl_super_additivity_mechanism": {
+    "mean_kl_postAB": 27.029103333922638,
+    "mean_sum_solo": 50.6079581414146,
+    "mean_max_solo": 31.79422703008542,
+    "interpretation": "If kl_postAB \u2248 max_solo, mechanism is M2 (KL anchoring dominates). If kl_postAB << min_solo, mechanism is M1 (gradient cancellation)."
+  },
+  "d5_binary_outcome": {
+    "overall_kept_rate": 0.25287356321839083,
+    "by_condition": {
+      "disjoint": 0.2619047619047619,
+      "shared": 0.24444444444444444
+    },
+    "by_method": {
+      "ACDC": 0.2413793103448276,
+      "ROMEtrace": 0.2413793103448276,
+      "Random": 0.27586206896551724
+    }
+  }
+}

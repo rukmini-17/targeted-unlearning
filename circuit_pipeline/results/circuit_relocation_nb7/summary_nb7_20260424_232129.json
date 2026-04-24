@@ -1,0 +1,24 @@
+{
+  "notebook": "Notebook 7 \u2014 Circuit relocation under editing",
+  "timestamp": "20260424_232129",
+  "model": "Qwen/Qwen3-0.6B",
+  "n_samples": 15,
+  "jaccard_attn": {
+    "mean": 0.06666666666666667,
+    "median": 0.0,
+    "std": 0.24944382578492946
+  },
+  "jaccard_mlp": {
+    "mean": 0.24162189662189665,
+    "median": 0.16666666666666666,
+    "std": 0.22085161144694107
+  },
+  "jaccard_combined": {
+    "mean": 0.14237816021434788,
+    "median": 0.14285714285714285,
+    "std": 0.1417732127674014
+  },
+  "wilcoxon_p_jaccard_below_0.5": 0.0003233745612882382,
+  "edit_delta_mean": 0.8945036783658968,
+  "finding": "Circuits relocate substantially after editing"
+}
