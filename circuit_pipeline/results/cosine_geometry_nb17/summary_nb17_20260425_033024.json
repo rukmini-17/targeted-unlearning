@@ -1,0 +1,28 @@
+{
+  "notebook": "Notebook 17 \u2014 Gradient Direction Hypothesis",
+  "timestamp": "20260425_033024",
+  "model": "Qwen/Qwen3-0.6B",
+  "n_pairs": 10,
+  "data_source": "pair indices auto-fetched from github.com/rukmini-17/targeted-unlearning",
+  "hypothesis": "Damage to A is proportional to cosine(\u03b4A, \u03b4B_solo) in parameter space",
+  "n_clean_rows": 10,
+  "cosine_vs_A_displaced": {
+    "spearman_rho": 0.006060606060606061,
+    "spearman_p": 0.9867429111949892,
+    "pearson_r": 0.38391693729888143,
+    "pearson_p": 0.2734017759081121
+  },
+  "control_correlations": {
+    "magnitude_delta_A_vs_A_displaced": {
+      "rho": 0.11515151515151514,
+      "p": 0.7514196523258483
+    },
+    "magnitude_delta_B_solo_vs_A_displaced": {
+      "rho": 0.07878787878787878,
+      "p": 0.8287173946974606
+    }
+  },
+  "multivariate_R2": 0.2826466422506424,
+  "mean_cosine": -0.00038315923810711995,
+  "verdict": "hypothesis_not_supported"
+}
