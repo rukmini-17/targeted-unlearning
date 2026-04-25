@@ -1,0 +1,57 @@
+{
+  "notebook": "Notebook 8 \u2014 \u03b2_KL ablation",
+  "timestamp": "20260424_234646",
+  "model": "Qwen/Qwen3-0.6B",
+  "n_pairs_per_beta": 8,
+  "beta_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.3,
+    1.0
+  ],
+  "beta_protect": 0.3,
+  "rho_by_beta": [
+    {
+      "beta_kl": 0.0,
+      "rho": -0.5714285714285715,
+      "p": 0.1389599571607067,
+      "n": 8,
+      "mean_retA": 0.22888240430581308,
+      "mean_succB": 0.7273123676371558
+    },
+    {
+      "beta_kl": 0.05,
+      "rho": -0.04761904761904763,
+      "p": 0.9108491685195836,
+      "n": 8,
+      "mean_retA": 0.24737822950762406,
+      "mean_succB": 0.8657200551604238
+    },
+    {
+      "beta_kl": 0.1,
+      "rho": 0.28571428571428575,
+      "p": 0.4927262450169573,
+      "n": 8,
+      "mean_retA": 0.040911636264639124,
+      "mean_succB": 0.9483415335416794
+    },
+    {
+      "beta_kl": 0.3,
+      "rho": 0.0,
+      "p": 1.0,
+      "n": 8,
+      "mean_retA": 0.2580476127249991,
+      "mean_succB": 0.8647373877465725
+    },
+    {
+      "beta_kl": 1.0,
+      "rho": -0.6666666666666669,
+      "p": 0.07098765432098751,
+      "n": 8,
+      "mean_retA": 0.1975241303027279,
+      "mean_succB": 0.6402513691608815
+    }
+  ],
+  "finding": "If \u03c1 becomes more negative as \u03b2_KL increases \u2192 KL anchor CAUSES the trade-off. If \u03c1 stays flat \u2192 trade-off is independent of KL strength."
+}
