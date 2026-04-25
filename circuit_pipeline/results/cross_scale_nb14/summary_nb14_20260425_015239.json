@@ -1,0 +1,61 @@
+{
+  "notebook": "Notebook 14 \u2014 Cross-Scale Replication of NB11 on GPT-2-XL",
+  "timestamp": "20260425_015239",
+  "model": "gpt2-xl",
+  "n_pairs": 10,
+  "conditions": [
+    "skip",
+    "real",
+    "dry_run",
+    "random_target"
+  ],
+  "data_source": "pair indices same as NB11 (sourced from v3)",
+  "per_condition_means": {
+    "skip": 0.0,
+    "real": 0.9993390276029153,
+    "dry_run": 0.0,
+    "random_target": 0.999347859621037
+  },
+  "per_condition_n": {
+    "skip": 10,
+    "real": 10,
+    "dry_run": 10,
+    "random_target": 10
+  },
+  "pairwise_tests": {
+    "skip_vs_real": {
+      "p": 0.001953125,
+      "diff": -0.9993390276029153
+    },
+    "skip_vs_dry_run": {
+      "p": 1.0,
+      "diff": 0.0
+    },
+    "skip_vs_random_target": {
+      "p": 0.001953125,
+      "diff": -0.999347859621037
+    },
+    "real_vs_dry_run": {
+      "p": 0.001953125,
+      "diff": 0.9993390276029153
+    },
+    "real_vs_random_target": {
+      "p": 0.03125,
+      "diff": -8.832018121740504e-06
+    },
+    "dry_run_vs_random_target": {
+      "p": 0.001953125,
+      "diff": -0.999347859621037
+    }
+  },
+  "nb11_qwen_baseline": {
+    "skip": 0.0,
+    "real": 0.803,
+    "dry_run": 0.0,
+    "random_target": 0.781
+  },
+  "replication_check": {
+    "content_independence_real_vs_random_p": 0.03125,
+    "dryrun_safe_dry_vs_skip_p": 1.0
+  }
+}

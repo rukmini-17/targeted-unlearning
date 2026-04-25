@@ -1,0 +1,16 @@
+{
+  "notebook": "Notebook 12 - Circuit Overlap Predictor",
+  "timestamp": "20260425_023331",
+  "model": "Qwen/Qwen3-0.6B",
+  "data_source": "pair indices auto-fetched from github.com/rukmini-17/targeted-unlearning",
+  "n_pairs": 29,
+  "n_clean_rows": 78,
+  "spearman_jaccard_combined_vs_A_displaced": {
+    "rho": -0.2805255007511795,
+    "p": 0.012857067269029732
+  },
+  "mean_jaccard_combined": 0.13796665763556198,
+  "mean_jaccard_attn": 0.16773413483375427,
+  "mean_jaccard_mlp": 0.2503257585968862,
+  "verdict": "overlap_does_not_predict_displacement"
+}
