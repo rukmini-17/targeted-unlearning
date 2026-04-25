@@ -1,0 +1,28 @@
+{
+  "notebook": "Notebook 18 \u2014 Residual Stream Direction Hypothesis",
+  "timestamp": "20260425_035654",
+  "model": "Qwen/Qwen3-0.6B",
+  "n_pairs": 10,
+  "data_source": "pair indices auto-fetched from github.com/rukmini-17/targeted-unlearning",
+  "hypothesis": "B opposes A in residual stream direction \u2192 more A_displaced",
+  "n_clean_rows": 10,
+  "projection_signed_vs_A_displaced": {
+    "spearman_rho": 0.2978737164032316,
+    "spearman_p": 0.4032038726329136
+  },
+  "cosine_in_residual_vs_A_displaced": {
+    "spearman_rho": 0.08510677611520905,
+    "spearman_p": 0.8151715445415288
+  },
+  "magnitude_delta_h_vs_A_displaced": {
+    "spearman_rho": 0.7112494861056756,
+    "spearman_p": 0.021090925985548795
+  },
+  "multivariate_R2": 0.49562126964770514,
+  "per_layer_strongest": {
+    "layer": 17,
+    "rho": -0.8267515394048879
+  },
+  "mean_projection_signed": 245.7160604136549,
+  "verdict": "hypothesis_not_supported"
+}
