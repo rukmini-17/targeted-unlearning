@@ -1,0 +1,23 @@
+{
+  "notebook": "Notebook 13 - Edit magnitude predictor",
+  "timestamp": "20260425_005848",
+  "data_source": "fetched from github.com/rukmini-17/targeted-unlearning",
+  "n_clean_v3": 78,
+  "kl_A_solo_vs_A_displaced": {
+    "pooled": {
+      "rho": 0.319798621927346,
+      "p": 0.004315272368334476
+    },
+    "when_B_failed": {
+      "rho": 0.4641542481730193,
+      "p": 0.039245209527861515,
+      "n": 20
+    },
+    "when_B_succeeded": {
+      "rho": 0.28204380135734797,
+      "p": 0.03195454249553523,
+      "n": 58
+    }
+  },
+  "verdict": "kl_A_solo IS a significant predictor of A_displaced"
+}

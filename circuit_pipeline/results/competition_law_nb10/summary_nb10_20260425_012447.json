@@ -1,0 +1,23 @@
+{
+  "notebook": "Notebook 10 \u2014 Linear Competition Law",
+  "timestamp": "20260425_012447",
+  "data_source": "fetched from github.com/rukmini-17/targeted-unlearning",
+  "pooled_n": 113,
+  "pooled_regression": {
+    "slope": 0.26089830014825355,
+    "slope_se": 0.09351739623133948,
+    "intercept": 0.531612156778571,
+    "r_squared": 0.06552434650591894,
+    "p_value": 0.006208320965009378
+  },
+  "conservation_test": {
+    "h0": "slope = 1.0 (perfect conservation)",
+    "t_statistic": -7.903360547201156,
+    "p_vs_one": 2.1525004001432535e-12,
+    "verdict": "partial_conservation_slope_0.26"
+  },
+  "normalized_regression": {
+    "slope": 0.2727953416190709,
+    "r_squared": 0.07010065677605738
+  }
+}

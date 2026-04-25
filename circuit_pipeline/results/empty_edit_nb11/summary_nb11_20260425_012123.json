@@ -1,0 +1,51 @@
+{
+  "notebook": "Notebook 11 - Empty Edit Control",
+  "timestamp": "20260425_012123",
+  "model": "Qwen/Qwen3-0.6B",
+  "n_pairs": 10,
+  "conditions": [
+    "skip",
+    "real",
+    "dry_run",
+    "random_target"
+  ],
+  "data_source": "pair indices auto-fetched from github.com/rukmini-17/targeted-unlearning",
+  "per_condition_means": {
+    "skip": 0.0,
+    "real": 0.8031152844427009,
+    "dry_run": 0.0,
+    "random_target": 0.7811500495831748
+  },
+  "per_condition_n": {
+    "skip": 10,
+    "real": 10,
+    "dry_run": 10,
+    "random_target": 10
+  },
+  "pairwise_tests": {
+    "skip_vs_real": {
+      "p": 0.001953125,
+      "diff": -0.8031152844427009
+    },
+    "skip_vs_dry_run": {
+      "p": 1.0,
+      "diff": 0.0
+    },
+    "skip_vs_random_target": {
+      "p": 0.001953125,
+      "diff": -0.7811500495831748
+    },
+    "real_vs_dry_run": {
+      "p": 0.001953125,
+      "diff": 0.8031152844427009
+    },
+    "real_vs_random_target": {
+      "p": 0.7421875,
+      "diff": 0.02196523485952606
+    },
+    "dry_run_vs_random_target": {
+      "p": 0.001953125,
+      "diff": -0.7811500495831748
+    }
+  }
+}
